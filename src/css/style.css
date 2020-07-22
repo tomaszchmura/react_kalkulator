@@ -1,0 +1,56 @@
+@import "./_reset.css";
+
+* {
+    box-sizing: border-box;
+    /* background-color: whitesmoke; */
+  }
+  
+ .container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 2em;
+    align-items: stretch;
+  }
+
+  .container__title {
+    background-color: #283e4a;
+    font-size: x-large;
+    flex-basis: 100%;
+    align-self: center;
+    padding: 2px;
+      
+  }
+
+.container__selection {
+    font-size: x-large;
+    flex-basis: 50%;
+    flex-grow: 3;
+    background-color: #f3f6f8;
+    padding: 2px
+}
+
+.container__output {
+    font-size: x-large;
+    flex-basis: 50%;
+    flex-grow: 3;
+    background-color: #f3f6f8;
+    padding: 2px
+
+
+}
+
+.container__outputValues {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container__outputValues--input {
+align-self: stretch;
+padding: 1px
+}
